@@ -18,7 +18,7 @@ import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.hit.HitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.minecraft.world.WorldSavePath;
+import net.minecraft.util.WorldSavePath;
 
 import java.io.IOException;
 import java.nio.file.*;
