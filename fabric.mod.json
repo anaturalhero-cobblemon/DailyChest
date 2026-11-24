@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "dailychest",
+  "version": "${version}",
+  "name": "Daily Chest",
+  "description": "Personal daily reward chests with Pacific Time resets.",
+  "environment": "server",
+  "entrypoints": {"main": ["com.anaturalhero.dailychest.DailyChestMod"]},
+  "depends": {"fabricloader": ">=0.16.0", "minecraft": "~1.21.1", "java": ">=21", "fabric-api": "*"}
+}
