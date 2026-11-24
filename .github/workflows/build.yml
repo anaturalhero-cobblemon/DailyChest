@@ -22,7 +22,7 @@ jobs:
           dependency-graph: disabled
 
       - name: Build mod
-        run: gradle build
+        run: gradle build --refresh-dependencies
 
       - uses: actions/upload-artifact@v4
         with:
